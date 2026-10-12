@@ -17,7 +17,7 @@
 
 <br><br>
 
-**Student Name:** Diviksha Tak 
+**Student Name:** Khushbu Saini
 **Enrollment Number:** 240034
 
 <br>
