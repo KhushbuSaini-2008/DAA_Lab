@@ -1672,7 +1672,7 @@ E -> A ( 7 )
 
 <div style="page-break-after: always;"></div>
 
-#Program BFS 
+# Program BFS 
 
 ## Aim Write a Python program to create and represent a BFS  Graph using a Node and Graph class.
 
@@ -1758,11 +1758,11 @@ graph.BFS(A)
 
 [Back to Index](#index)
 
-#Program DFS
+# Program DFS
 
 ## Aim  Write a Python program to create and represent a BFS  Graph using a Node and Graph class
 
-##Program 21
+## Program 21
 
 ```python
 from collections import deque
@@ -1843,11 +1843,11 @@ graph.DFS(A)
 
 [back to index](#index) 
 
-#program Dijkstra
+# Program Dijkstra
 
 ##Aim Write a Python program to calculate minimum path using Dijkstra algorithm.
 
-##program 22
+## Program 22
 
 ```python
 import time
@@ -1981,7 +1981,7 @@ print(f"Peak memory: {peak / 1024:.2f} KB")
 
 [back to index](#index)
 
-#program Bellman Ford
+# Program Bellman Ford
 
 ##Aim Write a Python program to calculate minimum path using bellman ford algorithm.
 
@@ -2114,10 +2114,10 @@ print(f"Peak memory: {peak / 1024:.2f} KB")
 
 [back to index](#index)
 
-#program Prim's algorithm
+#Program Prim's algorithm
 
 ##Aim Write a Python program to find shortest paths using the Bellman-Ford algorithm and detect negative-weight cycles.
-##Program 24
+## Program 24
 
 
 ```python
@@ -2249,7 +2249,7 @@ print(f"Peak memory: {peak / 1024:.2f} KB")
 
 [back to index](#index)
 
-#program Krushal alogorithm
+#Program Krushal alogorithm
 
 ## Aim Write a Python program to find the Minimum Spanning Tree (MST) and its total weight using Kruskal’s algorithm.
 
