@@ -219,12 +219,8 @@ print("Largest number =", largest)
 
 ## Sample Output
 
-```text
-Enter first number: 10
-Enter second number: 25
-Enter third number: 15
-Largest number = 25
-```
+<img width="1154" height="801" alt="image" src="https://github.com/user-attachments/assets/f0782fb4-f88e-4b94-8c84-c0f39f35a273" />
+
 
 [Back to Index](#index)
 
@@ -253,10 +249,8 @@ print("Factorial =", fact)
 
 ## Sample Output
 
-```text
-Enter a number: 5
-Factorial = 120
-```
+<img width="250" height="530" alt="image" src="https://github.com/user-attachments/assets/5a641b0c-3944-44a2-8e1f-8ef90897746c" />
+
 
 [Back to Index](#index)
 
@@ -1647,3 +1641,503 @@ E -> A ( 7 )
 ---
 
 <div style="page-break-after: always;"></div>
+
+#Program BFS 
+
+## Aim Write a Python program to create and represent a BFS  Graph using a Node and Graph class.
+
+## Program 20
+
+```python
+from collections import deque
+
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.neighbors = []
+
+
+# Graph class
+class Graph:
+    def __init__(self):
+        self.nodes = []
+
+    def add_node(self, data):
+        node = Node(data)
+        self.nodes.append(node)
+        return node
+
+    # Directed edge
+    def add_edge(self, node1, node2):
+        node1.neighbors.append(node2)
+
+    def print_graph(self):
+        for node in self.nodes:
+            print(node.data, ":", end=" ")
+
+            for i, neighbor in enumerate(node.neighbors):
+                print(neighbor.data, end="")
+
+                if i < len(node.neighbors) - 1:
+                    print(", ", end="")
+
+            print()
+    def BFS(self, start):
+        visited = set()
+        queue = deque([start])
+        visited.add(start)
+
+        while queue:
+            node = queue.popleft()
+            print(node.data, end=" ")
+
+            for neighbor in node.neighbors:
+                if neighbor not in visited:
+                    visited.add(neighbor)
+                    queue.append(neighbor)
+                    
+   
+
+
+# Create graph
+
+graph = Graph()
+
+A = graph.add_node("A")
+B = graph.add_node("B")
+C = graph.add_node("C")
+D = graph.add_node("D")
+E = graph.add_node("E")
+
+
+# Add directed edges
+graph.add_edge(A, B)
+graph.add_edge(A, C)
+graph.add_edge(B, D)
+graph.add_edge(C, D)
+graph.add_edge(D, E)
+
+# Print graph
+graph.print_graph()
+graph.BFS(A)
+
+```
+## sample output
+
+<img width="211" height="192" alt="image" src="https://github.com/user-attachments/assets/3591f20c-e613-43c6-a225-ce2024e3aed1" />
+
+[Back to Index](#index)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
