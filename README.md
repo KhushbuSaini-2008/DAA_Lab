@@ -185,11 +185,8 @@ print("Sum =", sum)
 
 ## Sample Output
 
-```text
-Enter first number: 10
-Enter second number: 20
-Sum = 30
-```
+<img width="339" height="744" alt="image" src="https://github.com/user-attachments/assets/d4179ff1-8f2d-432b-9489-9445e8497b8e" />
+
 
 [Back to Index](#index)
 
