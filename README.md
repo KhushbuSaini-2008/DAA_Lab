@@ -317,10 +317,8 @@ for i in range(n):
 
 ## Sample Output
 
-```text
-Enter number of terms: 7
-0 1 1 2 3 5 8
-```
+<img width="243" height="674" alt="image" src="https://github.com/user-attachments/assets/e380dba3-3c99-40a3-b992-6ace337f9a78" />
+
 
 [Back to Index](#index)
 
@@ -1809,7 +1807,147 @@ graph.DFS(A)
 
 <img width="193" height="242" alt="image" src="https://github.com/user-attachments/assets/3b59f10c-7b1f-4d4b-9f44-716689087ee1" />
 
+[back to index](#index) 
+
+#program Dijkstra
+
+##Aim Write a Python program to calculate minimum path using Dijkstra algorithm.
+
+##program 22
+
+```python
+import time
+import tracemalloc
+
+tracemalloc.start()
+
+# Start timer
+start_time = time.perf_counter()
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.neighbors = []
+
+
+class Graph:
+    def __init__(self):
+        self.nodes = []
+
+    def add_node(self, data):
+        node = Node(data)
+        self.nodes.append(node)
+        return node
+
+    # Directed weighted edge
+    def add_edge(self, node1, node2, weight):
+        node1.neighbors.append((node2, weight))
+
+    def print_graph(self):
+        for node in self.nodes:
+            print(node.data, ":", end=" ")
+
+            for i, (neighbor, weight) in enumerate(node.neighbors):
+                print(f"{neighbor.data}({weight})", end="")
+
+                if i < len(node.neighbors) - 1:
+                    print(", ", end="")
+
+            print()
+
+    def dijkstra(self, source):
+
+        distance = {}
+
+        # Step 1: Initialize distances
+        for node in self.nodes:
+            distance[node] = float('inf')
+
+        distance[source] = 0
+
+        visited = set()
+
+        # Step 2: Repeat until all nodes are visited
+        while len(visited) < len(self.nodes):
+
+            # Find minimum-distance unvisited node
+            current = None
+            min_distance = float('inf')
+
+            for node in self.nodes:
+                if node not in visited and distance[node] < min_distance:
+                    min_distance = distance[node]
+                    current = node
+
+            if current is None:
+                break
+
+            # Mark current node visited
+            visited.add(current)
+
+            # Relax edges
+            for neighbor, weight in current.neighbors:
+
+                new_distance = distance[current] + weight
+
+                if new_distance < distance[neighbor]:
+                    distance[neighbor] = new_distance
+
+        return distance
+
+
+# Create graph
+graph = Graph()
+
+A = graph.add_node("A")
+B = graph.add_node("B")
+C = graph.add_node("C")
+D = graph.add_node("D")
+E = graph.add_node("E")
+
+
+# Add directed edges with weights
+graph.add_edge(A, B, 4)
+graph.add_edge(A, C, 2)
+graph.add_edge(B, D, 5)
+graph.add_edge(C, D, 1)
+graph.add_edge(D, E, 3)
+
+
+# Print graph
+graph.print_graph()
+
+
+# Run Dijkstra
+distances = graph.dijkstra(A)
+end_time = time.perf_counter()
+
+# Get memory usage
+current, peak = tracemalloc.get_traced_memory()
+
+# Stop memory tracking
+tracemalloc.stop()
+
+
+
+# Print distances
+print("\nShortest distances from A:")
+
+for node, distance in distances.items():
+    print(f"A -> {node.data} = {distance}")
+
+print("\nPerformance:")
+print(f"Execution time: {(end_time - start_time) * 1000:.6f} ms")
+print(f"Current memory: {current / 1024:.2f} KB")
+print(f"Peak memory: {peak / 1024:.2f} KB")
+
+```
+##sample output
+
+<img width="396" height="433" alt="image" src="https://github.com/user-attachments/assets/e0f49f01-a5a1-458c-8406-b3a130a93a61" />
+
 [back to index](#index)
+
+
 
 
 
