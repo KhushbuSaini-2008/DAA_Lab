@@ -1947,6 +1947,140 @@ print(f"Peak memory: {peak / 1024:.2f} KB")
 
 [back to index](#index)
 
+#program Bellman Ford
+
+##Aim Write a Python program to calculate minimum path using bellman ford algorithm.
+
+## Program 23
+
+```python
+
+import time
+import tracemalloc
+
+tracemalloc.start()
+
+# Start timer
+start_time = time.perf_counter()
+
+
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.neighbors = []
+
+
+class Graph:
+    def __init__(self):
+        self.nodes = []
+        self.edges = []
+
+    def add_node(self, data):
+        node = Node(data)
+        self.nodes.append(node)
+        return node
+
+    # Directed weighted edge
+    def add_edge(self, node1, node2, weight):
+        node1.neighbors.append((node2, weight))
+        self.edges.append((node1, node2, weight))
+
+    def print_graph(self):
+        for node in self.nodes:
+            print(node.data, ":", end=" ")
+
+            for i, (neighbor, weight) in enumerate(node.neighbors):
+                print(f"{neighbor.data}({weight})", end="")
+
+                if i < len(node.neighbors) - 1:
+                    print(", ", end="")
+
+            print()
+
+    def bellman_ford(self, source):
+        distance = {}
+
+        # Step 1: Initialize distances
+        for node in self.nodes:
+            distance[node] = float('inf')
+
+        distance[source] = 0
+
+        # Step 2: Relax all edges V-1 times
+        for _ in range(len(self.nodes) - 1):
+            updated = False
+
+            for u, v, weight in self.edges:
+                if distance[u] != float('inf'):
+                    new_distance = distance[u] + weight
+
+                    if new_distance < distance[v]:
+                        distance[v] = new_distance
+                        updated = True
+
+            # Stop early if no distance changes
+            if not updated:
+                break
+
+        # Step 3: Detect negative-weight cycles
+        for u, v, weight in self.edges:
+            if (distance[u] != float('inf')
+                    and distance[u] + weight < distance[v]):
+                print("Graph contains a negative-weight cycle!")
+                return None
+
+        return distance
+
+
+# Create graph
+graph = Graph()
+
+A = graph.add_node("A")
+B = graph.add_node("B")
+C = graph.add_node("C")
+D = graph.add_node("D")
+E = graph.add_node("E")
+
+# Add directed edges with weights
+graph.add_edge(A, B, 4)
+graph.add_edge(A, C, 2)
+graph.add_edge(B, D, 5)
+graph.add_edge(C, D, 1)
+graph.add_edge(D, E, 3)
+
+# Print graph
+graph.print_graph()
+
+# Run Bellman-Ford
+distances = graph.bellman_ford(A)
+
+end_time = time.perf_counter()
+
+# Get memory usage
+current, peak = tracemalloc.get_traced_memory()
+tracemalloc.stop()
+
+# Print distances
+if distances is not None:
+    print("\nShortest distances from A:")
+
+    for node, distance in distances.items():
+        print(f"A -> {node.data} = {distance}")
+
+print("\nPerformance:")
+print(f"Execution time: {(end_time - start_time) * 1000:.6f} ms")
+print(f"Current memory: {current / 1024:.2f} KB")
+print(f"Peak memory: {peak / 1024:.2f} KB")
+
+```
+
+##sample output
+
+<img width="372" height="477" alt="image" src="https://github.com/user-attachments/assets/4bea2d28-75a2-46af-aa77-730d188d95f6" />
+
+[back to index](#index)
+
+
 
 
 
