@@ -158,6 +158,39 @@ Lakshmangarh, Rajasthan
     <td>19</td>
     <td>Directed and Weighted Graph</td>
     <td><a href="#program-19-Directed-and-Weighted-Graph">Program 19</a></td>
+    
+  </tr>
+    <tr>
+    <td>20</td>
+    <td>Directed and Weighted Graph</td>
+    <td><a href="#program-19-Directed-and-Weighted-Graph">Program 20</a></td>
+  </tr>
+
+  <tr>
+    <td>21</td>
+    <td>Directed and Weighted Graph</td>
+    <td><a href="#program-19-Directed-and-Weighted-Graph">Program 21</a></td>
+  </tr>
+  
+  <tr>
+    <td>22</td>
+    <td>Directed and Weighted Graph</td>
+    <td><a href="#program-19-Directed-and-Weighted-Graph">Program 22</a></td>
+  </tr> 
+    <tr>
+    <td>23</td>
+    <td>Directed and Weighted Graph</td>
+    <td><a href="#program-19-Directed-and-Weighted-Graph">Program 23</a></td>
+  </tr>
+    <tr>
+    <td>24</td>
+    <td>Directed and Weighted Graph</td>
+    <td><a href="#program-19-Directed-and-Weighted-Graph">Program 24</a></td>
+  </tr>
+    <tr>
+    <td>25</td>
+    <td>Directed and Weighted Graph</td>
+    <td><a href="#program-19-Directed-and-Weighted-Graph">Program 25</a></td>
   </tr>
 </table>
 
