@@ -162,35 +162,36 @@ Lakshmangarh, Rajasthan
   </tr>
     <tr>
     <td>20</td>
-    <td>Directed and Weighted Graph</td>
-    <td><a href="#program-19-Directed-and-Weighted-Graph">Program 20</a></td>
+    <td>BFS Graph</td>
+    <td><a href="#program-20-BFS_Graph">Program 20</a></td>
   </tr>
 
   <tr>
     <td>21</td>
-    <td>Directed and Weighted Graph</td>
-    <td><a href="#program-19-Directed-and-Weighted-Graph">Program 21</a></td>
+    <td>DFS Graph</td>
+    <td><a href="#program-21-DFS-Graph">Program 21</a></td>
   </tr>
   
   <tr>
     <td>22</td>
-    <td>Directed and Weighted Graph</td>
-    <td><a href="#program-19-Directed-and-Weighted-Graph">Program 22</a></td>
+    <td>Dijkstra algorithm</td>
+    <td><a href="#program-22-Dijkstra-algorithm">Program 22</a></td>
   </tr> 
     <tr>
     <td>23</td>
-    <td>Directed and Weighted Graph</td>
-    <td><a href="#program-19-Directed-and-Weighted-Graph">Program 23</a></td>
+    <td>Bellman Ford</td>
+    <td><a href="#program-23-Bellman-ford">Program 23</a></td>
   </tr>
     <tr>
     <td>24</td>
-    <td>Directed and Weighted Graph</td>
-    <td><a href="#program-19-Directed-and-Weighted-Graph">Program 24</a></td>
+    <td>Prims algorithm</td>
+    <td><a href="#program-24-Prims-algorithm">Program 24</a></td>
+      
   </tr>
     <tr>
     <td>25</td>
-    <td>Directed and Weighted Graph</td>
-    <td><a href="#program-19-Directed-and-Weighted-Graph">Program 25</a></td>
+    <td>Krushal algorithm</td>
+    <td><a href="#program-25-krushal-algorithm">Program 25</a></td>
   </tr>
 </table>
 
