@@ -287,10 +287,8 @@ else:
 
 ## Sample Output
 
-```text
-Enter a number: 7
-7 is a Prime Number
-```
+<img width="669" height="788" alt="image" src="https://github.com/user-attachments/assets/02732f63-aa3e-40e4-a3ec-52c541a07571" />
+
 
 [Back to Index](#index)
 
@@ -1727,6 +1725,254 @@ graph.BFS(A)
 <img width="211" height="192" alt="image" src="https://github.com/user-attachments/assets/3591f20c-e613-43c6-a225-ce2024e3aed1" />
 
 [Back to Index](#index)
+
+#Program DFS
+
+## Aim  Write a Python program to create and represent a BFS  Graph using a Node and Graph class
+
+##Program 21
+
+```python
+from collections import deque
+
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.neighbors = []
+
+
+# Graph class
+class Graph:
+    def __init__(self):
+        self.nodes = []
+
+    def add_node(self, data):
+        node = Node(data)
+        self.nodes.append(node)
+        return node
+
+    # Directed edge
+    def add_edge(self, node1, node2):
+        node1.neighbors.append(node2)
+
+    def print_graph(self):
+        for node in self.nodes:
+            print(node.data, ":", end=" ")
+
+            for i, neighbor in enumerate(node.neighbors):
+                print(neighbor.data, end="")
+
+                if i < len(node.neighbors) - 1:
+                    print(", ", end="")
+
+            print()
+ 
+                    
+    def DFS(self, start, visited=None):
+        if visited is None:
+            visited = set()
+
+        visited.add(start)
+        print(start.data, end=" ")
+
+        for neighbor in start.neighbors:
+            if neighbor not in visited:
+                self.DFS(neighbor, visited)
+
+
+
+# Create graph
+
+graph = Graph()
+
+A = graph.add_node("A")
+B = graph.add_node("B")
+C = graph.add_node("C")
+D = graph.add_node("D")
+E = graph.add_node("E")
+
+
+# Add directed edges
+graph.add_edge(A, B)
+graph.add_edge(A, C)
+graph.add_edge(B, D)
+graph.add_edge(C, D)
+graph.add_edge(D, E)
+
+# Print graph
+graph.print_graph()
+
+graph.DFS(A)
+
+```
+## sapmple Output
+
+<img width="193" height="242" alt="image" src="https://github.com/user-attachments/assets/3b59f10c-7b1f-4d4b-9f44-716689087ee1" />
+
+[back to index](#index)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
