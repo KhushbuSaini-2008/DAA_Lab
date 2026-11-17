@@ -174,7 +174,7 @@ Lakshmangarh, Rajasthan
   
   <tr>
     <td>22</td>
-    <td>Dijkstra algorithm</td>
+    <td>Dijkstra Algorithm</td>
     <td><a href="#program-22-Dijkstra-Algorithm">Program 22</a></td>
   </tr> 
     <tr>
