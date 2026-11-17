@@ -1776,11 +1776,11 @@ graph.BFS(A)
 [Back to Index](#index)
 
 
-# Program 21:
+# Program 21: DFS Graph
 
 ## Aim  
 
-Write a Python program to create and represent a BFS  Graph using a Node and Graph class
+Write a Python program to create and represent a DFS  Graph using a Node and Graph class
 
 ## Program 21
 
@@ -1863,11 +1863,13 @@ graph.DFS(A)
 
 [back to index](#index) 
 
-# Program Dijkstra
+# Program 22:Dijkstra Algorithm
 
-##Aim Write a Python program to calculate minimum path using Dijkstra algorithm.
+##Aim
 
-## Program 22
+Write a Python program to calculate minimum path using Dijkstra algorithm.
+
+## Program 
 
 ```python
 import time
