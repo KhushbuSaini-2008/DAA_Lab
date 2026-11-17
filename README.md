@@ -1,228 +1,180 @@
 <div align="center">
-
-# MODY UNIVERSITY OF SCIENCE AND TECHNOLOGY
-
-## School of Engineering and Technology
-
+MODY UNIVERSITY OF SCIENCE AND TECHNOLOGY
+School of Engineering and Technology
 <br>
-
 <img width="154" height="157" alt="Mody_University_logo" src="https://github.com/user-attachments/assets/11e32514-7869-4f2d-afc9-b45171b58488" />
 
-
 <br>
-
-# DESIGN ANALYSIS AND ALGORITHM LAB
-
-### LAB RECORD
-
+DESIGN ANALYSIS AND ALGORITHM LAB
+LAB RECORD
 <br><br>
-
-**Student Name:** Khushbu Saini
-**Enrollment Number:** 240052
-
+Student Name: Khushbu Saini
+Enrollment Number: 240052
 <br>
-
-**Faculty Name:** Dr. P. K. Bishnoi
-
+Faculty Name: Dr. P. K. Bishnoi
 <br><br>
-
-**Mody University of Science and Technology**
-**School of Engineering and Technology**
+Mody University of Science and Technology
+School of Engineering and Technology
 Lakshmangarh, Rajasthan
-
 </div>
-
 ---
-
 <div style="page-break-after: always;"></div>
 
-
-# INDEX
-
+INDEX
 <table style="width:100%; border-collapse:collapse;">
   <tr>
     <th style="width:10%;">S. No.</th>
     <th style="width:65%;">Program</th>
     <th style="width:25%;">Link</th>
   </tr>
-
-  <tr>
+<tr>
     <td>1</td>
     <td>Addition of Two Numbers</td>
     <td><a href="#program-1-addition-of-two-numbers">Program 1</a></td>
   </tr>
-
-  <tr>
+<tr>
     <td>2</td>
     <td>Largest of Three Numbers</td>
     <td><a href="#program-2-largest-of-three-numbers">Program 2</a></td>
   </tr>
-
-  <tr>
+<tr>
     <td>3</td>
     <td>Factorial of a Number</td>
     <td><a href="#program-3-factorial-of-a-number">Program 3</a></td>
   </tr>
-
-  <tr>
+<tr>
     <td>4</td>
     <td>Prime Number Check</td>
     <td><a href="#program-4-prime-number-check">Program 4</a></td>
   </tr>
-
-  <tr>
+<tr>
     <td>5</td>
     <td>Fibonacci Series</td>
     <td><a href="#program-5-fibonacci-series">Program 5</a></td>
   </tr>
-
-  <tr>
+<tr>
     <td>6</td>
     <td>Bubble Sort</td>
     <td><a href="#program-6-bubble-sort">Program 6</a></td>
   </tr>
-
-  <tr>
+<tr>
     <td>7</td>
     <td>Selection Sort</td>
     <td><a href="#program-7-selection-sort">Program 7</a></td>
   </tr>
-
-  <tr>
+<tr>
     <td>8</td>
     <td>Insertion Sort</td>
     <td><a href="#program-8-insertion-sort">Program 8</a></td>
   </tr>
-
-  <tr>
+<tr>
     <td>9</td>
     <td>Merge Sort</td>
     <td><a href="#program-9-merge-sort">Program 9</a></td>
   </tr>
-
-  <tr>
+<tr>
     <td>10</td>
     <td>Quick Sort</td>
     <td><a href="#program-10-quick-sort">Program 10</a></td>
   </tr>
-
-  <tr>
+<tr>
     <td>11</td>
     <td>Time and Memory Comparison of all Sortings</td>
     <td><a href="#program-11-Time-and-Memory-Comparison-of-all-Sortings">Program 11</a></td>
   </tr>
-
-  <tr>
+<tr>
     <td>12</td>
     <td>Linear Search</td>
     <td><a href="#program-12-linear-search">Program 12</a></td>
   </tr>
-
-  <tr>
+<tr>
     <td>13</td>
     <td>Binary Search</td>
     <td><a href="#program-13-binary-search">Program 13</a></td>
   </tr>
-  
-  <tr>
+<tr>
     <td>14</td>
     <td>Time and Memory Comparison of linear and binary searching</td>
     <td><a href="#program-14-Time-and-Memory-Comparison-of-linear-and-binary-searching">Program 14</a></td>
   </tr>
-
-  <tr>
+<tr>
     <td>15</td>
     <td>Time and Memory Comparison of different time complexities</td>
     <td><a href="#program-15-Time-and-Memory-Comparison-of-different-time-complexities">Program 15</a></td>
   </tr>
-
-  <tr>
+<tr>
     <td>16</td>
     <td>Undirected Graph</td>
     <td><a href="#program-16-Undirected-Graph">Program 16</a></td>
   </tr>
-
-  <tr>
+<tr>
     <td>17</td>
     <td>Directed Graph</td>
     <td><a href="#program-17-Directed-Graph">Program 17</a></td>
   </tr>
-
-  <tr>
+<tr>
     <td>18</td>
     <td>Weighted Graph</td>
     <td><a href="#program-18-Weighted-Graph">Program 18</a></td>
   </tr>
-
-  <tr>
+<tr>
     <td>19</td>
     <td>Directed and Weighted Graph</td>
     <td><a href="#program-19-Directed-and-Weighted-Graph">Program 19</a></td>
-    
-  </tr>
+</tr>
     <tr>
     <td>20</td>
     <td>BFS Graph</td>
-    <td><a href="#program-20-BFS_Graph">Program 20</a></td>
+    <td><a href="#program-20">Program 20</a></td>
   </tr>
-
-  <tr>
+<tr>
     <td>21</td>
     <td>DFS Graph</td>
-    <td><a href="#program-21-DFS-Graph">Program 21</a></td>
+    <td><a href="#program-21">Program 21</a></td>
   </tr>
-  
-  <tr>
+<tr>
     <td>22</td>
     <td>Dijkstra algorithm</td>
-    <td><a href="#program-22-Dijkstra-algorithm">Program 22</a></td>
+    <td><a href="#program-22">Program 22</a></td>
   </tr> 
     <tr>
     <td>23</td>
     <td>Bellman Ford</td>
-    <td><a href="#program-23-Bellman-ford">Program 23</a></td>
+    <td><a href="#program-23">Program 23</a></td>
   </tr>
     <tr>
     <td>24</td>
     <td>Prims algorithm</td>
-    <td><a href="#program-24-Prims-algorithm">Program 24</a></td>
-      
-  </tr>
+    <td><a href="#program-24">Program 24</a></td>
+</tr>
     <tr>
     <td>25</td>
     <td>Krushal algorithm</td>
-    <td><a href="#program-25-krushal-algorithm">Program 25</a></td>
+    <td><a href="#program-25">Program 25</a></td>
   </tr>
      <tr>
     <td>26</td>
     <td> FLoyd Warshell</td>
-    <td><a href="#program-26-Floyd-Warshell">Program 26</a></td>
+    <td><a href="#program-26">Program 26</a></td>
   </tr>
      <tr>
     <td>27</td>
     <td>01 Knapsack problem</td>
-    <td><a href="#program-27-01_Knapsack">Program 27</a></td>
+    <td><a href="#program-27">Program 27</a></td>
   </tr>
      <tr>
     <td>28</td>
     <td>Fractional Knapsack</td>
-    <td><a href="#program-28-fractional-Knapsack">Program 28</a></td>
+    <td><a href="#program-28">Program 28</a></td>
   </tr>
 </table>
 
-
 ---
-
 <div style="page-break-after: always;"></div>
-
-# Program 1: Addition of Two Numbers
-
-## Aim
-
+Program 1: Addition of Two Numbers
+Aim
 To write a Python program to find the sum of two numbers.
-
-## Program
-
+Program
 ```python
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
@@ -231,26 +183,16 @@ sum = a + b
 
 print("Sum =", sum)
 ```
-
-## Sample Output
-
+Sample Output
 <img width="339" height="744" alt="image" src="https://github.com/user-attachments/assets/d4179ff1-8f2d-432b-9489-9445e8497b8e" />
 
-
-[Back to Index](#index)
-
+Back to Index
 ---
-
 <div style="page-break-after: always;"></div>
-
-# Program 2: Largest of Three Numbers
-
-## Aim
-
+Program 2: Largest of Three Numbers
+Aim
 To write a Python program to find the largest among three numbers.
-
-## Program
-
+Program
 ```python
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
@@ -265,26 +207,16 @@ else:
 
 print("Largest number =", largest)
 ```
-
-## Sample Output
-
+Sample Output
 <img width="1154" height="801" alt="image" src="https://github.com/user-attachments/assets/f0782fb4-f88e-4b94-8c84-c0f39f35a273" />
 
-
-[Back to Index](#index)
-
+Back to Index
 ---
-
 <div style="page-break-after: always;"></div>
-
-# Program 3: Factorial of a Number
-
-## Aim
-
+Program 3: Factorial of a Number
+Aim
 To write a Python program to calculate the factorial of a given number.
-
-## Program
-
+Program
 ```python
 n = int(input("Enter a number: "))
 
@@ -295,26 +227,16 @@ for i in range(1, n + 1):
 
 print("Factorial =", fact)
 ```
-
-## Sample Output
-
+Sample Output
 <img width="250" height="530" alt="image" src="https://github.com/user-attachments/assets/5a641b0c-3944-44a2-8e1f-8ef90897746c" />
 
-
-[Back to Index](#index)
-
+Back to Index
 ---
-
 <div style="page-break-after: always;"></div>
-
-# Program 4: Prime Number Check
-
-## Aim
-
+Program 4: Prime Number Check
+Aim
 To write a Python program to check whether a given number is prime or not.
-
-## Program
-
+Program
 ```python
 n = int(input("Enter a number: "))
 
@@ -333,26 +255,16 @@ if prime:
 else:
     print(n, "is not a Prime Number")
 ```
-
-## Sample Output
-
+Sample Output
 <img width="669" height="788" alt="image" src="https://github.com/user-attachments/assets/02732f63-aa3e-40e4-a3ec-52c541a07571" />
 
-
-[Back to Index](#index)
-
+Back to Index
 ---
-
 <div style="page-break-after: always;"></div>
-
-# Program 5: Fibonacci Series
-
-## Aim
-
+Program 5: Fibonacci Series
+Aim
 To write a Python program to generate the Fibonacci series.
-
-## Program
-
+Program
 ```python
 n = int(input("Enter number of terms: "))
 
@@ -363,24 +275,15 @@ for i in range(n):
     print(a, end=" ")
     a, b = b, a + b
 ```
-
-## Sample Output
-
+Sample Output
 <img width="243" height="674" alt="image" src="https://github.com/user-attachments/assets/e380dba3-3c99-40a3-b992-6ace337f9a78" />
 
-
-[Back to Index](#index)
-
+Back to Index
 ---
-
-# Program 6: Bubble Sort
-
-## Aim
-
+Program 6: Bubble Sort
+Aim
 Write a Python program to sort the given array in ascending order using Bubble Sort. Also calculate its execution time and memory usage.
-
-## Program
-
+Program
 ```python
 import time
 import tracemalloc
@@ -416,24 +319,15 @@ print("Execution Time:", end - start, "seconds")
 print("Memory Used:", current, "bytes")
 print("Peak Memory:", peak, "bytes")
 ```
-
-## Sample Output
-
+Sample Output
 <img width="270" height="45" alt="image" src="https://github.com/user-attachments/assets/0f51adf1-12a8-449b-95c1-5d14dbe39753" />
 
-
-[Back to Index](#index)
-
+Back to Index
 ---
-
-# Program 7: Selection Sort
-
-## Aim
-
+Program 7: Selection Sort
+Aim
 Write a Python program to sort an array using Selection Sort and find its execution time and memory used.
-
-## Program
-
+Program
 ```python
 import time
 import tracemalloc
@@ -470,24 +364,15 @@ print("Execution Time:", end - start, "seconds")
 print("Memory Used:", current, "bytes")
 print("Peak Memory:", peak, "bytes")
 ```
-
-## Sample Output
-
+Sample Output
 <img width="288" height="59" alt="image" src="https://github.com/user-attachments/assets/87ce28e4-1a9b-41dc-a528-ecbc388a0628" />
 
-
-[Back to Index](#index)
-
+Back to Index
 ---
-
-# Program 8: Insertion Sort
-
-## Aim
-
+Program 8: Insertion Sort
+Aim
 Write a Python program to sort an array using Insertion Sort and find its execution time and memory used.
-
-## Program
-
+Program
 ```python
 import time
 import tracemalloc
@@ -523,24 +408,15 @@ print("Execution Time:", end - start, "seconds")
 print("Memory Used:", current, "bytes")
 print("Peak Memory:", peak, "bytes")
 ```
-
-## Sample Output
-
+Sample Output
 <img width="293" height="55" alt="image" src="https://github.com/user-attachments/assets/1481a177-cb08-4f15-a0ea-fb037ccfce50" />
 
-
-[Back to Index](#index)
-
+Back to Index
 ---
-
-# Program 9: Merge Sort
-
-## Aim
-
+Program 9: Merge Sort
+Aim
 Write a Python program to sort an array using Merge Sort and find its execution time and memory used.
-
-## Program
-
+Program
 ```python
 import time
 import tracemalloc
@@ -595,23 +471,15 @@ print("Memory Used:", current, "bytes")
 print("Peak Memory:", peak, "bytes")
 
 ```
-
-## Sample Output
-
+Sample Output
 <img width="340" height="62" alt="image" src="https://github.com/user-attachments/assets/415dafbb-38f3-415a-9898-2ddb100174f5" />
 
-
-[Back to Index](#index)
-
+Back to Index
 ---
-# Program 10: Quick Sort
-
-## Aim
-
+Program 10: Quick Sort
+Aim
 Write a Python program to sort an array using Quick Sort and find its execution time and memory used.
-
-## Program
-
+Program
 ```python
 import time
 import tracemalloc
@@ -655,22 +523,14 @@ print("Memory Used:", current, "bytes")
 print("Peak Memory:", peak, "bytes")
 
 ```
-
-## Sample Output
-
+Sample Output
 <img width="299" height="50" alt="image" src="https://github.com/user-attachments/assets/315c8f0d-3984-4b8b-ab23-2f77268a8890" />
-
-[Back to Index](#index)
-
+Back to Index
 ---
-# Program 11: Time and Memory Comparison of all Sortings
-
-## Aim
-
+Program 11: Time and Memory Comparison of all Sortings
+Aim
 Implement Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, and Quick Sort in Python. Calculate the execution time and memory usage of each algorithm and compare their performance using graphs.
-
-## Program
-
+Program
 ```python
 import time
 import matplotlib.pyplot as plt
@@ -858,23 +718,15 @@ plt.grid()
 plt.show()
 
 ```
-
-## Sample Output
-
+Sample Output
 <img width="311" height="53" alt="image" src="https://github.com/user-attachments/assets/f7f8fca7-2761-4e76-9c39-664cae37f09a" />
 <img width="911" height="459" alt="image" src="https://github.com/user-attachments/assets/c0889196-962d-429a-817d-57d0bef9a7b5" />
-
-[Back to Index](#index)
-
+Back to Index
 ---
-# Program 12: Linear Search
-
-## Aim
-
+Program 12: Linear Search
+Aim
 Write a Python program to search for a given element in an array using Linear Search. Also calculate its execution time and memory usage.
-
-## Program
-
+Program
 ```python
 import time
 import tracemalloc
@@ -907,22 +759,14 @@ print("Memory Used:", current, "bytes")
 print("Peak Memory:", peak, "bytes")
 
 ```
-
-## Sample Output
-
+Sample Output
 <img width="293" height="56" alt="image" src="https://github.com/user-attachments/assets/97729835-b4cd-4c75-8e4e-129e0f99c13e" />
-
-[Back to Index](#index)
-
+Back to Index
 ---
-# Program 13: Binary Search
-
-## Aim
-
+Program 13: Binary Search
+Aim
 Write a Python program to search for a given element in a sorted array using Binary Search. Also calculate its execution time and memory usage.
-
-## Program
-
+Program
 ```python
 import time
 import tracemalloc
@@ -966,22 +810,14 @@ print("Memory Used:", current, "bytes")
 print("Peak Memory:", peak, "bytes")
 
 ```
-
-## Sample Output
-
+Sample Output
 <img width="289" height="62" alt="image" src="https://github.com/user-attachments/assets/b1d80fb8-9198-4293-9c64-0b81cebb656a" />
-
-[Back to Index](#index)
-
+Back to Index
 ---
-# Program 14: Time and Memory Comparison of linear and binary searching
-
-## Aim
-
+Program 14: Time and Memory Comparison of linear and binary searching
+Aim
 Write a Python program to compare the execution time of Linear Search and Binary Search and represent the comparison using a graph.
-
-## Program
-
+Program
 ```python
 import time
 import matplotlib.pyplot as plt
@@ -1075,26 +911,16 @@ plt.grid()
 plt.show()
 
 ```
-
-## Sample Output
-
+Sample Output
 <img width="408" height="87" alt="image" src="https://github.com/user-attachments/assets/46db1611-d130-415e-beac-b101988b351c" />
 <img width="479" height="355" alt="image" src="https://github.com/user-attachments/assets/0a74dcb3-82bd-426f-9118-4007ab780cf5" />
 
-
-
-[Back to Index](#index)
-
+Back to Index
 ---
-
-# Program 15: Time and Memory Comparison of different time complexities
-
-## Aim
-
+Program 15: Time and Memory Comparison of different time complexities
+Aim
 Write a Python program to demonstrate different time complexities and calculate execution time and memory usage.
-
-## Program
-
+Program
 ```python
 # ============================================================
 
@@ -1308,9 +1134,7 @@ plt.grid(True)
 plt.show()
 
 ```
-
-## Sample Output
-
+Sample Output
 ```text
 ========== O(1) - CONSTANT TIME ==========
 Array: [10, 20, 30]
@@ -1381,18 +1205,12 @@ Peak Memory: 3993048 bytes
 ```
 <img width="926" height="449" alt="image" src="https://github.com/user-attachments/assets/cccdedfc-0dc8-4ef6-8d7d-6dadf1b48c63" />
 
-
-[Back to Index](#index)
-
+Back to Index
 ---
-# Program 16: Undirected Graph
-
-## Aim
-
+Program 16: Undirected Graph
+Aim
 Write a Python program to create and represent an Undirected Graph using a Node and Graph class.
-
-## Program
-
+Program
 ```python
 class Node:
     def __init__(self, data):
@@ -1443,9 +1261,7 @@ print("Undirected Graph:")
 graph.print_graph()
 
 ```
-
-## Sample Output
-
+Sample Output
 ```text
 Undirected Graph:
 A -> B C E 
@@ -1454,21 +1270,13 @@ C -> A D
 D -> B C E 
 E -> D A 
 ```
-
-[Back to Index](#index)
-
+Back to Index
 ---
-
 <div style="page-break-after: always;"></div>
-
-# Program 17: Directed Graph
-
-## Aim
-
+Program 17: Directed Graph
+Aim
 Write a Python program to create and represent a Directed Graph using a Node and Graph class.
-
-## Program
-
+Program
 ```python
 class Node:
     def __init__(self, data):
@@ -1518,9 +1326,7 @@ print("Directed Graph:")
 graph.print_graph()
 
 ```
-
-## Sample Output
-
+Sample Output
 ```text
 Directed Graph:
 A -> B C 
@@ -1529,21 +1335,13 @@ C -> D
 D -> E 
 E -> A 
 ```
-
-[Back to Index](#index)
-
+Back to Index
 ---
-
 <div style="page-break-after: always;"></div>
-
-# Program 18: Weighted Graph
-
-## Aim
-
+Program 18: Weighted Graph
+Aim
 Write a Python program to create and represent a Weighted Graph using a Node and Graph class.
-
-## Program
-
+Program
 ```python
 class Node:
     def __init__(self, data):
@@ -1594,9 +1392,7 @@ print("Weighted Graph:")
 graph.print_graph()
 
 ```
-
-## Sample Output
-
+Sample Output
 ```text
 Weighted Graph:
 A -> B ( 5 ) C ( 3 ) E ( 7 ) 
@@ -1605,21 +1401,13 @@ C -> A ( 3 ) D ( 4 )
 D -> B ( 2 ) C ( 4 ) E ( 6 ) 
 E -> D ( 6 ) A ( 7 ) 
 ```
-
-[Back to Index](#index)
-
+Back to Index
 ---
-
 <div style="page-break-after: always;"></div>
-
-# Program 19: Directed and Weighted Graph
-
-## Aim
-
+Program 19: Directed and Weighted Graph
+Aim
 Write a Python program to create and represent a Directed and Weighted Graph using a Node and Graph class.
-
-## Program
-
+Program
 ```python
 class Node:
     def __init__(self, data):
@@ -1669,9 +1457,7 @@ print("Directed and Weighted Graph:")
 graph.print_graph()
 
 ```
-
-## Sample Output
-
+Sample Output
 ```text
 Directed and Weighted Graph:
 A -> B ( 5 ) C ( 3 ) 
@@ -1680,19 +1466,12 @@ C -> D ( 4 )
 D -> E ( 6 ) 
 E -> A ( 7 ) 
 ```
-
-[Back to Index](#index)
-
+Back to Index
 ---
-
 <div style="page-break-after: always;"></div>
-
-# Program BFS 
-
-## Aim Write a Python program to create and represent a BFS  Graph using a Node and Graph class.
-
-## Program 20
-
+Program BFS
+Aim Write a Python program to create and represent a BFS  Graph using a Node and Graph class.
+Program 20
 ```python
 from collections import deque
 
@@ -1767,18 +1546,12 @@ graph.print_graph()
 graph.BFS(A)
 
 ```
-## sample output
-
+sample output
 <img width="211" height="192" alt="image" src="https://github.com/user-attachments/assets/3591f20c-e613-43c6-a225-ce2024e3aed1" />
-
-[Back to Index](#index)
-
-# Program DFS
-
-## Aim  Write a Python program to create and represent a BFS  Graph using a Node and Graph class
-
-## Program 21
-
+Back to Index
+Program DFS
+Aim  Write a Python program to create and represent a BFS  Graph using a Node and Graph class
+Program 21
 ```python
 from collections import deque
 
@@ -1852,18 +1625,12 @@ graph.print_graph()
 graph.DFS(A)
 
 ```
-## sapmple Output
-
+sapmple Output
 <img width="193" height="242" alt="image" src="https://github.com/user-attachments/assets/3b59f10c-7b1f-4d4b-9f44-716689087ee1" />
-
-[back to index](#index) 
-
-# Program Dijkstra
-
+back to index
+Program Dijkstra
 ##Aim Write a Python program to calculate minimum path using Dijkstra algorithm.
-
-## Program 22
-
+Program 22
 ```python
 import time
 import tracemalloc
@@ -1991,17 +1758,11 @@ print(f"Peak memory: {peak / 1024:.2f} KB")
 
 ```
 ##sample output
-
 <img width="396" height="433" alt="image" src="https://github.com/user-attachments/assets/e0f49f01-a5a1-458c-8406-b3a130a93a61" />
-
-[back to index](#index)
-
-# Program Bellman Ford
-
+back to index
+Program Bellman Ford
 ##Aim Write a Python program to calculate minimum path using bellman ford algorithm.
-
-## Program 23
-
+Program 23
 ```python
 
 import time
@@ -2122,18 +1883,12 @@ print(f"Current memory: {current / 1024:.2f} KB")
 print(f"Peak memory: {peak / 1024:.2f} KB")
 
 ```
-
 ##sample output
-
 <img width="372" height="477" alt="image" src="https://github.com/user-attachments/assets/4bea2d28-75a2-46af-aa77-730d188d95f6" />
-
-[back to index](#index)
-
+back to index
 #Program Prim's algorithm
-
 ##Aim Write a Python program to find shortest paths using the Bellman-Ford algorithm and detect negative-weight cycles.
-## Program 24
-
+Program 24
 
 ```python
 
@@ -2258,20 +2013,13 @@ print(f"Current memory: {current / 1024:.2f} KB")
 print(f"Peak memory: {peak / 1024:.2f} KB")
 
 ```
-## sample output
-
+sample output
 <img width="320" height="481" alt="image" src="https://github.com/user-attachments/assets/0c8752bc-4a64-4215-bb74-73bfe89212a4" />
-
-[back to index](#index)
-
-# Program Krushal alogorithm
-
-##
+back to index
+Program Krushal alogorithm
 
 Aim Write a Python program to find the Minimum Spanning Tree (MST) and its total weight using Kruskal’s algorithm.
-
-## Program 25
-
+Program 25
 ```python
 
 import time
@@ -2403,15 +2151,10 @@ print(f"Current memory: {current / 1024:.2f} KB")
 print(f"Peak memory: {peak / 1024:.2f} KB")
 
 ```
-
-## sample output
-
+sample output
 <img width="482" height="492" alt="image" src="https://github.com/user-attachments/assets/ba8a8c17-ee2d-4ab4-8d7f-b29c72913a89" />
-
-[back to index](#index)
-
-## Program 26
-
+back to index
+Program 26
 ```python
 
 INF = float('inf')
@@ -2442,16 +2185,11 @@ print("Shortest Distance Matrix:")
 for row in dist:
     print(row)
 ```
-
-## Sample output
-
+Sample output
 <img width="856" height="142" alt="image" src="https://github.com/user-attachments/assets/d8325371-aa96-44f9-a44d-3f8fe5ab3f7a" />
 
-
-[back to index](#index)
-
-## Program 27
-
+back to index
+Program 27
 ```python
 
 def greedy_knapsack():
@@ -2508,15 +2246,11 @@ def greedy_knapsack():
 greedy_knapsack()
 
 ```
-## Sample Output
-
+Sample Output
 <img width="678" height="415" alt="image" src="https://github.com/user-attachments/assets/79ffabcc-3ccd-418b-acba-6a11e293a9c5" />
 
-
-[back to index](#index)
-
-## Program 28
-
+back to index
+Program 28
 ```python
 
 def fractional_knapsack():
@@ -2594,590 +2328,6 @@ def fractional_knapsack():
 fractional_knapsack()
 
 ```
-## Sample output
-
+Sample output
 <img width="444" height="436" alt="image" src="https://github.com/user-attachments/assets/8e542e99-2320-493d-804e-e7e95e1b9dab" />
-
-[back to index](#index)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+back to index
