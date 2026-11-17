@@ -2264,13 +2264,11 @@ print(f"Peak memory: {peak / 1024:.2f} KB")
 
 [back to index](#index)
 
-# Program Krushal alogorithm
+# Program 25
 
-##
+## Aim Write a Python program to find the Minimum Spanning Tree (MST) and its total weight using Kruskal’s algorithm.
 
-Aim Write a Python program to find the Minimum Spanning Tree (MST) and its total weight using Kruskal’s algorithm.
-
-## Program 25
+## Program 
 
 ```python
 
