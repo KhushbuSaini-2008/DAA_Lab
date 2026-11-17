@@ -2003,11 +2003,13 @@ print(f"Peak memory: {peak / 1024:.2f} KB")
 
 [back to index](#index)
 
-# Program Bellman Ford
+# Program 23: Bellman Ford
 
-##Aim Write a Python program to calculate minimum path using bellman ford algorithm.
+## Aim 
 
-## Program 23
+Write a Python program to calculate minimum path using bellman ford algorithm.
+
+## Program 
 
 ```python
 
@@ -2136,10 +2138,13 @@ print(f"Peak memory: {peak / 1024:.2f} KB")
 
 [back to index](#index)
 
-#Program Prim's algorithm
+#Program 24: Prim's algorithm
 
-##Aim Write a Python program to find shortest paths using the Bellman-Ford algorithm and detect negative-weight cycles.
-## Program 24
+## Aim
+
+Write a Python program to find shortest paths using the Bellman-Ford algorithm and detect negative-weight cycles.
+
+## Program 
 
 
 ```python
@@ -2271,9 +2276,11 @@ print(f"Peak memory: {peak / 1024:.2f} KB")
 
 [back to index](#index)
 
-# Program 25
+# Program 25 : Kruskal's algorithm
 
-## Aim Write a Python program to find the Minimum Spanning Tree (MST) and its total weight using Kruskal’s algorithm.
+## Aim 
+
+Write a Python program to find the Minimum Spanning Tree (MST) and its total weight using Kruskal’s algorithm.
 
 ## Program 
 
@@ -2415,7 +2422,13 @@ print(f"Peak memory: {peak / 1024:.2f} KB")
 
 [back to index](#index)
 
-## Program 26
+# Program 26: Floyd Warshell Algorithm
+
+##Aim
+
+write a python code for floyd warshell algorithm
+
+## Program
 
 ```python
 
@@ -2455,7 +2468,13 @@ for row in dist:
 
 [back to index](#index)
 
-## Program 27
+#Program 27: 01-Knapsack problem
+
+## Aim
+
+ write a python code for 01-kNAPSACK problem
+
+## Program 
 
 ```python
 
@@ -2520,7 +2539,13 @@ greedy_knapsack()
 
 [back to index](#index)
 
-## Program 28
+#Program 28: Fractional Knapsack
+
+## Aim
+
+write a python code for fractional knapsack problem
+
+## Program 
 
 ```python
 
