@@ -163,7 +163,7 @@ Lakshmangarh, Rajasthan
     <tr>
     <td>20</td>
     <td>BFS Graph</td>
-    <td><a href="#program-20-BFS_Graph">Program 20</a></td>
+    <td><a href="#program-20-BFS-Graph">Program 20</a></td>
   </tr>
 
   <tr>
