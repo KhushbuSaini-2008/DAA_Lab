@@ -1776,9 +1776,11 @@ graph.BFS(A)
 [Back to Index](#index)
 
 
-# Program DFS
+# Program 21:
 
-## Aim  Write a Python program to create and represent a BFS  Graph using a Node and Graph class
+## Aim  
+
+Write a Python program to create and represent a BFS  Graph using a Node and Graph class
 
 ## Program 21
 
