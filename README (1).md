@@ -1687,11 +1687,11 @@ E -> A ( 7 )
 
 <div style="page-break-after: always;"></div>
 
-# Program BFS 
+# Program 20: BFS Graph
 
 ## Aim Write a Python program to create and represent a BFS  Graph using a Node and Graph class.
 
-## Program 20
+## Program 
 
 ```python
 from collections import deque
@@ -1772,6 +1772,7 @@ graph.BFS(A)
 <img width="211" height="192" alt="image" src="https://github.com/user-attachments/assets/3591f20c-e613-43c6-a225-ce2024e3aed1" />
 
 [Back to Index](#index)
+
 
 # Program DFS
 
