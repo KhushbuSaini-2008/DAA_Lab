@@ -193,6 +193,21 @@ Lakshmangarh, Rajasthan
     <td>Krushal algorithm</td>
     <td><a href="#program-25-krushal-algorithm">Program 25</a></td>
   </tr>
+     <tr>
+    <td>26</td>
+    <td> FLoyd Warshell</td>
+    <td><a href="#program-26-Floyd-Warshell">Program 26</a></td>
+  </tr>
+     <tr>
+    <td>27</td>
+    <td>01 Knapsack problem</td>
+    <td><a href="#program-27-01_Knapsack">Program 27</a></td>
+  </tr>
+     <tr>
+    <td>28</td>
+    <td>Fractional Knapsack</td>
+    <td><a href="#program-28-fractional-Knapsack">Program 28</a></td>
+  </tr>
 </table>
 
 
@@ -2392,6 +2407,196 @@ print(f"Peak memory: {peak / 1024:.2f} KB")
 ## sample output
 
 <img width="482" height="492" alt="image" src="https://github.com/user-attachments/assets/ba8a8c17-ee2d-4ab4-8d7f-b29c72913a89" />
+
+[back to index](#index)
+
+## Program 26
+
+```python
+
+INF = float('inf')
+
+n = int(input("Enter number of vertices: "))
+
+print("Enter the adjacency matrix (use INF for no edge):")
+
+dist = []
+
+for i in range(n):
+    row = input().split()
+    dist.append([
+        INF if x.upper() == "INF" else int(x)
+        for x in row
+    ])
+
+for k in range(n):
+    for i in range(n):
+        for j in range(n):
+            dist[i][j] = min(
+                dist[i][j],
+                dist[i][k] + dist[k][j]
+            )
+
+print("Shortest Distance Matrix:")
+
+for row in dist:
+    print(row)
+```
+
+## Sample output
+
+<img width="856" height="142" alt="image" src="https://github.com/user-attachments/assets/d8325371-aa96-44f9-a44d-3f8fe5ab3f7a" />
+
+
+[back to index](#index)
+
+## Program 27
+
+```python
+
+def greedy_knapsack():
+    n = int(input("Enter number of items: "))
+
+    weights = []
+    profits = []
+
+    # Input weights
+    print("\nEnter weights of items:")
+    for i in range(n):
+        w = int(input(f"Weight of item {i+1}: "))
+        weights.append(w)
+
+    # Input profits
+    print("\nEnter profits of items:")
+    for i in range(n):
+        p = int(input(f"Profit of item {i+1}: "))
+        profits.append(p)
+
+    # Input capacity
+    capacity = int(input("\nEnter knapsack capacity: "))
+
+    # Calculate profit/weight ratio
+    items = []
+
+    for i in range(n):
+        ratio = profits[i] / weights[i]
+        items.append((ratio, weights[i], profits[i], i+1))
+
+    # Sort by decreasing ratio
+    items.sort(reverse=True)
+
+    total_profit = 0
+    total_weight = 0
+
+    print("\nSelected Items:")
+
+    for ratio, weight, profit, item_no in items:
+
+        if total_weight + weight <= capacity:
+            total_weight += weight
+            total_profit += profit
+
+            print("Item:", item_no,
+                  "Weight:", weight,
+                  "Profit:", profit)
+
+    print("\nTotal Weight:", total_weight)
+    print("Total Profit:", total_profit)
+
+
+# Function call
+greedy_knapsack()
+
+```
+## Sample Output
+
+<img width="678" height="415" alt="image" src="https://github.com/user-attachments/assets/79ffabcc-3ccd-418b-acba-6a11e293a9c5" />
+
+
+[back to index](#index)
+
+## Program 28
+
+```python
+
+def fractional_knapsack():
+
+    n = int(input("Enter number of items: "))
+
+    weights = []
+    profits = []
+
+    # Input weights
+    print("\nEnter weights of items:")
+    for i in range(n):
+        w = float(input(f"Weight of item {i+1}: "))
+        weights.append(w)
+
+    # Input profits
+    print("\nEnter profits of items:")
+    for i in range(n):
+        p = float(input(f"Profit of item {i+1}: "))
+        profits.append(p)
+
+    # Input capacity
+    capacity = float(input("\nEnter knapsack capacity: "))
+
+    # Calculate profit/weight ratio
+    items = []
+
+    for i in range(n):
+        ratio = profits[i] / weights[i]
+        items.append((ratio, weights[i], profits[i], i+1))
+
+    # Sort by descending ratio
+    items.sort(reverse=True)
+
+    total_profit = 0
+    total_weight = 0
+
+    print("\nSelected Items:")
+
+    for ratio, weight, profit, item_no in items:
+
+        if capacity <= 0:
+            break
+
+        if capacity >= weight:
+
+            # Take complete item
+            capacity -= weight
+            total_weight += weight
+            total_profit += profit
+
+            print("Item:", item_no,
+                  "Fraction: 1",
+                  "Profit:", profit)
+
+        else:
+
+            # Take fractional item
+            fraction = capacity / weight
+
+            total_profit += profit * fraction
+            total_weight += capacity
+
+            print("Item:", item_no,
+                  "Fraction:", round(fraction, 2),
+                  "Profit:", round(profit * fraction, 2))
+
+            capacity = 0
+
+    print("\nTotal Weight:", round(total_weight, 2))
+    print("Total Profit:", round(total_profit, 2))
+
+
+# Main Program
+fractional_knapsack()
+
+```
+## Sample output
+
+<img width="444" height="436" alt="image" src="https://github.com/user-attachments/assets/8e542e99-2320-493d-804e-e7e95e1b9dab" />
 
 [back to index](#index)
 
