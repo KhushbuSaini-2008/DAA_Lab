@@ -171,6 +171,7 @@ INDEX
 
 ---
 <div style="page-break-after: always;"></div>
+<a id="program-1-addition-of-two-numbers"></a>
 Program 1: Addition of Two Numbers
 Aim
 To write a Python program to find the sum of two numbers.
@@ -189,6 +190,7 @@ Sample Output
 Back to Index
 ---
 <div style="page-break-after: always;"></div>
+<a id="program-2-largest-of-three-numbers"></a>
 Program 2: Largest of Three Numbers
 Aim
 To write a Python program to find the largest among three numbers.
@@ -213,6 +215,7 @@ Sample Output
 Back to Index
 ---
 <div style="page-break-after: always;"></div>
+<a id="program-3-factorial-of-a-number"></a>
 Program 3: Factorial of a Number
 Aim
 To write a Python program to calculate the factorial of a given number.
@@ -233,6 +236,7 @@ Sample Output
 Back to Index
 ---
 <div style="page-break-after: always;"></div>
+<a id="program-4-prime-number-check"></a>
 Program 4: Prime Number Check
 Aim
 To write a Python program to check whether a given number is prime or not.
@@ -261,6 +265,7 @@ Sample Output
 Back to Index
 ---
 <div style="page-break-after: always;"></div>
+<a id="program-5-fibonacci-series"></a>
 Program 5: Fibonacci Series
 Aim
 To write a Python program to generate the Fibonacci series.
@@ -280,6 +285,7 @@ Sample Output
 
 Back to Index
 ---
+<a id="program-6-bubble-sort"></a>
 Program 6: Bubble Sort
 Aim
 Write a Python program to sort the given array in ascending order using Bubble Sort. Also calculate its execution time and memory usage.
@@ -324,6 +330,7 @@ Sample Output
 
 Back to Index
 ---
+<a id="program-7-selection-sort"></a>
 Program 7: Selection Sort
 Aim
 Write a Python program to sort an array using Selection Sort and find its execution time and memory used.
@@ -369,6 +376,7 @@ Sample Output
 
 Back to Index
 ---
+<a id="program-8-insertion-sort"></a>
 Program 8: Insertion Sort
 Aim
 Write a Python program to sort an array using Insertion Sort and find its execution time and memory used.
@@ -413,6 +421,7 @@ Sample Output
 
 Back to Index
 ---
+<a id="program-9-merge-sort"></a>
 Program 9: Merge Sort
 Aim
 Write a Python program to sort an array using Merge Sort and find its execution time and memory used.
@@ -476,6 +485,7 @@ Sample Output
 
 Back to Index
 ---
+<a id="program-10-quick-sort"></a>
 Program 10: Quick Sort
 Aim
 Write a Python program to sort an array using Quick Sort and find its execution time and memory used.
@@ -527,6 +537,7 @@ Sample Output
 <img width="299" height="50" alt="image" src="https://github.com/user-attachments/assets/315c8f0d-3984-4b8b-ab23-2f77268a8890" />
 Back to Index
 ---
+<a id="program-11-Time-and-Memory-Comparison-of-all-Sortings"></a>
 Program 11: Time and Memory Comparison of all Sortings
 Aim
 Implement Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, and Quick Sort in Python. Calculate the execution time and memory usage of each algorithm and compare their performance using graphs.
@@ -723,6 +734,7 @@ Sample Output
 <img width="911" height="459" alt="image" src="https://github.com/user-attachments/assets/c0889196-962d-429a-817d-57d0bef9a7b5" />
 Back to Index
 ---
+<a id="program-12-linear-search"></a>
 Program 12: Linear Search
 Aim
 Write a Python program to search for a given element in an array using Linear Search. Also calculate its execution time and memory usage.
@@ -763,6 +775,7 @@ Sample Output
 <img width="293" height="56" alt="image" src="https://github.com/user-attachments/assets/97729835-b4cd-4c75-8e4e-129e0f99c13e" />
 Back to Index
 ---
+<a id="program-13-binary-search"></a>
 Program 13: Binary Search
 Aim
 Write a Python program to search for a given element in a sorted array using Binary Search. Also calculate its execution time and memory usage.
@@ -814,6 +827,7 @@ Sample Output
 <img width="289" height="62" alt="image" src="https://github.com/user-attachments/assets/b1d80fb8-9198-4293-9c64-0b81cebb656a" />
 Back to Index
 ---
+<a id="program-14-Time-and-Memory-Comparison-of-linear-and-binary-searching"></a>
 Program 14: Time and Memory Comparison of linear and binary searching
 Aim
 Write a Python program to compare the execution time of Linear Search and Binary Search and represent the comparison using a graph.
@@ -917,6 +931,7 @@ Sample Output
 
 Back to Index
 ---
+<a id="program-15-Time-and-Memory-Comparison-of-different-time-complexities"></a>
 Program 15: Time and Memory Comparison of different time complexities
 Aim
 Write a Python program to demonstrate different time complexities and calculate execution time and memory usage.
@@ -1207,6 +1222,7 @@ Peak Memory: 3993048 bytes
 
 Back to Index
 ---
+<a id="program-16-Undirected-Graph"></a>
 Program 16: Undirected Graph
 Aim
 Write a Python program to create and represent an Undirected Graph using a Node and Graph class.
@@ -1273,6 +1289,7 @@ E -> D A
 Back to Index
 ---
 <div style="page-break-after: always;"></div>
+<a id="program-17-Directed-Graph"></a>
 Program 17: Directed Graph
 Aim
 Write a Python program to create and represent a Directed Graph using a Node and Graph class.
@@ -1338,6 +1355,7 @@ E -> A
 Back to Index
 ---
 <div style="page-break-after: always;"></div>
+<a id="program-18-Weighted-Graph"></a>
 Program 18: Weighted Graph
 Aim
 Write a Python program to create and represent a Weighted Graph using a Node and Graph class.
@@ -1404,6 +1422,7 @@ E -> D ( 6 ) A ( 7 )
 Back to Index
 ---
 <div style="page-break-after: always;"></div>
+<a id="program-19-Directed-and-Weighted-Graph"></a>
 Program 19: Directed and Weighted Graph
 Aim
 Write a Python program to create and represent a Directed and Weighted Graph using a Node and Graph class.
@@ -1469,6 +1488,7 @@ E -> A ( 7 )
 Back to Index
 ---
 <div style="page-break-after: always;"></div>
+<a id="program-20"></a>
 Program BFS
 Aim Write a Python program to create and represent a BFS  Graph using a Node and Graph class.
 Program 20
@@ -1549,6 +1569,7 @@ graph.BFS(A)
 sample output
 <img width="211" height="192" alt="image" src="https://github.com/user-attachments/assets/3591f20c-e613-43c6-a225-ce2024e3aed1" />
 Back to Index
+<a id="program-21"></a>
 Program DFS
 Aim  Write a Python program to create and represent a BFS  Graph using a Node and Graph class
 Program 21
@@ -1628,6 +1649,7 @@ graph.DFS(A)
 sapmple Output
 <img width="193" height="242" alt="image" src="https://github.com/user-attachments/assets/3b59f10c-7b1f-4d4b-9f44-716689087ee1" />
 back to index
+<a id="program-22"></a>
 Program Dijkstra
 ##Aim Write a Python program to calculate minimum path using Dijkstra algorithm.
 Program 22
@@ -1760,6 +1782,7 @@ print(f"Peak memory: {peak / 1024:.2f} KB")
 ##sample output
 <img width="396" height="433" alt="image" src="https://github.com/user-attachments/assets/e0f49f01-a5a1-458c-8406-b3a130a93a61" />
 back to index
+<a id="program-23"></a>
 Program Bellman Ford
 ##Aim Write a Python program to calculate minimum path using bellman ford algorithm.
 Program 23
@@ -1886,6 +1909,7 @@ print(f"Peak memory: {peak / 1024:.2f} KB")
 ##sample output
 <img width="372" height="477" alt="image" src="https://github.com/user-attachments/assets/4bea2d28-75a2-46af-aa77-730d188d95f6" />
 back to index
+<a id="program-24"></a>
 #Program Prim's algorithm
 ##Aim Write a Python program to find shortest paths using the Bellman-Ford algorithm and detect negative-weight cycles.
 Program 24
@@ -2016,6 +2040,7 @@ print(f"Peak memory: {peak / 1024:.2f} KB")
 sample output
 <img width="320" height="481" alt="image" src="https://github.com/user-attachments/assets/0c8752bc-4a64-4215-bb74-73bfe89212a4" />
 back to index
+<a id="program-25"></a>
 Program Krushal alogorithm
 
 Aim Write a Python program to find the Minimum Spanning Tree (MST) and its total weight using Kruskal’s algorithm.
@@ -2154,6 +2179,7 @@ print(f"Peak memory: {peak / 1024:.2f} KB")
 sample output
 <img width="482" height="492" alt="image" src="https://github.com/user-attachments/assets/ba8a8c17-ee2d-4ab4-8d7f-b29c72913a89" />
 back to index
+<a id="program-26"></a>
 Program 26
 ```python
 
@@ -2189,6 +2215,7 @@ Sample output
 <img width="856" height="142" alt="image" src="https://github.com/user-attachments/assets/d8325371-aa96-44f9-a44d-3f8fe5ab3f7a" />
 
 back to index
+<a id="program-27"></a>
 Program 27
 ```python
 
@@ -2250,6 +2277,7 @@ Sample Output
 <img width="678" height="415" alt="image" src="https://github.com/user-attachments/assets/79ffabcc-3ccd-418b-acba-6a11e293a9c5" />
 
 back to index
+<a id="program-28"></a>
 Program 28
 ```python
 
